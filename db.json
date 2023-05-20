@@ -19,6 +19,21 @@
       "content": "Good Job Nikko",
       "important": false,
       "id": 4
+    },
+    {
+      "content": "Server programming is cool",
+      "important": false,
+      "id": 5
+    },
+    {
+      "content": "Axios rocks!",
+      "important": false,
+      "id": 6
+    },
+    {
+      "content": "React is powerfull",
+      "important": false,
+      "id": 7
     }
   ]
 }
