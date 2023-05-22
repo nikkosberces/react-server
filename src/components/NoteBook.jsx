@@ -5,18 +5,10 @@ import NoteForm from "./NoteForm";
 function NoteBook() {
   const [notes, setNotes] = useState([]);
 
-  const toggleImportanceOf = (id) => {
-    console.log(`importance of ${id} was toggled`);
-  };
-
   return (
     <div>
       <h1>Notes</h1>
-      <NoteList
-        notes={notes}
-        setNotes={setNotes}
-        toggleImportanceOf={toggleImportanceOf}
-      />
+      <NoteList notes={notes} setNotes={setNotes} />
       <NoteForm notes={notes} setNotes={setNotes} />
     </div>
   );
