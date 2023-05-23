@@ -1,22 +1,32 @@
 {
   "notes": [
     {
-      "id": 2,
-      "content": "Browser can execute only Javascript",
-      "important": true
+      "content": "Wake up 6:00 am",
+      "important": false,
+      "id": 1
     },
     {
-      "id": 3,
-      "content": "GET and POST are the most important methods of HTTP protocol",
-      "important": true
+      "content": "Take a bath",
+      "important": false,
+      "id": 2
     },
     {
-      "content": "Server programming is cool",
+      "content": "Go to work",
+      "important": false,
+      "id": 3
+    },
+    {
+      "content": "Code",
+      "important": false,
+      "id": 4
+    },
+    {
+      "content": "Attend KodeGo Class",
       "important": false,
       "id": 5
     },
     {
-      "content": "Axios rocks!",
+      "content": "Go to sleep",
       "important": false,
       "id": 6
     }

@@ -1,7 +1,7 @@
 import axios from "axios";
 const baseUrl = "http://localhost:3001/notes";
 
-function getAllNotes() {
+function getNotes() {
   return axios.get(baseUrl);
 }
 
@@ -18,7 +18,7 @@ function deleteNote(id) {
 }
 
 export default {
-  getAllNotes,
+  getNotes,
   createNote,
   updateNote,
   deleteNote,

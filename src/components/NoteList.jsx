@@ -1,11 +1,11 @@
 import Note from "./Note";
 import { useEffect } from "react";
-import noteService from "../services/notes";
+import noteService from "../services/noteService";
 
 function NoteList({ notes, setNotes }) {
   useEffect(() => {
     noteService
-      .getAllNotes()
+      .getNotes()
       .then((response) => setNotes(response.data))
       .catch((error) => console.log(error));
   }, [setNotes]);
