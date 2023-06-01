@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <NoteBook />
+      <p>This is simple note with backend </p>
     </div>
   );
 }
